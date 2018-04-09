@@ -6,7 +6,7 @@
     border-radius:50%;
     margin:auto;
     background: linear-gradient(-45deg,rgba(255,255,255,0) 35%,rgba(255,255,255,0.45) 50%,rgba(255,255,255,0) 65%),      linear-gradient(45deg,rgba(255,255,255,0) 35%,rgba(255,255,255,0.45) 50%,rgba(255,255,255,0) 65%),      linear-gradient(rgba(0,0,0,0) 35%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0) 65%),      linear-gradient(90deg,rgba(0,0,0,0) 35%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0) 65%),      radial-gradient(ellipse at center,#0033b0 25%,#ce0021 25%,#ce0021 42%,#bbb 42%,#bbb 58%,#ce0021 56%);
-    transform:translateY(40%);
+    transform:translateY(-40%);
     top:40%;
 }
 .shield:before{
