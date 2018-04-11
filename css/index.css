@@ -2,6 +2,10 @@ html,body {
     height: 100%;
     margin: auto;
 }
+body{
+    display: flex;
+    flex-flow: row;
+}
 .shield{
     position:relative;
     width:500px;
@@ -10,8 +14,6 @@ html,body {
     border-radius:50%;
     margin:auto;
     background: linear-gradient(-45deg,rgba(255,255,255,0) 35%,rgba(255,255,255,0.45) 50%,rgba(255,255,255,0) 65%),      linear-gradient(45deg,rgba(255,255,255,0) 35%,rgba(255,255,255,0.45) 50%,rgba(255,255,255,0) 65%),      linear-gradient(rgba(0,0,0,0) 35%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0) 65%),      linear-gradient(90deg,rgba(0,0,0,0) 35%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0) 65%),      radial-gradient(ellipse at center,#0033b0 25%,#ce0021 25%,#ce0021 42%,#bbb 42%,#bbb 58%,#ce0021 56%);
-    transform:translateY(-40%);
-    top:40%;
 }
 .shield:before{
     content:'★';
@@ -34,4 +36,46 @@ html,body {
     bottom:-20px;;
     width:300px;
     box-shadow:-150px 50px 70px 10px black;
+}
+
+.avengers{
+    position:relative;
+    width: 400px;
+    height: 400px;
+    text-align:center;
+    border-radius:50%;
+    margin:auto;
+    /* background: radial-gradient(ellipse at center,#fff 45%,#000 45%, #000 55%,white 55%); */
+    background: linear-gradient(black,black),linear-gradient(black,black);
+    background-repeat: no-repeat;
+    background-size: 75px 40px;
+    background-position: 162px 200px;
+    box-shadow: inset 0px 0px 0px 35px black;
+    z-index: 2;
+}
+
+.avengers:after {
+    content: '';
+    height: 540px;
+    width: 60px;
+    top: -5px;
+    left: 203px;
+    position: absolute;
+    box-shadow: -100px 0px 0px 0px black, -95px 0px 0px 0px #ffffff, -105px 108px 0px 0px #ffffff;
+    transform: rotateZ(27deg);
+}
+
+.avengers:before {
+    content: '►';
+    height: 40px;
+    width: 60px;
+    top: -35px;
+    left: 240px;
+    background: #060606;
+    position: absolute;
+    font-size: 95px;
+    text-shadow: -18px 200px 0px black, -14px 200px 0px white;
+    color: rgba(0,0,0,0);
+    z-index: 1;
+    box-shadow: -240px 480px 0px 6px white, -105px 235px 0px 0px black,0px 40px 0px 0px black,0px 80px 0px 0px black,0px 120px 0px 0px black,0px 160px 0px 0px black,0px 200px 0px 0px black,0px 240px 0px 0px black,0px 280px 0px 0px black,0px 320px 0px 0px black;
 }
