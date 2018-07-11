@@ -1,6 +1,6 @@
 # CaptainAmerica
-Captain America Shield
-Avengers Infinity War Logo
+*Captain America Shield
+*Avengers Infinity War Logo
 
 Demo URL : https://sidonkar.github.io/singleDiv/
 
